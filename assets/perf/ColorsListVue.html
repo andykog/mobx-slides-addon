@@ -1,0 +1,10 @@
+<div>
+    <div>
+        <button @click="handleAddColors">Add</button>
+        <button @click="handleReverseColors">Reverse</button>
+        <button @click="handleRemoveColors">Remove</button>
+    </div>
+    <span v-for="item in store.items" v-bind:style="{ color: item.color }">
+        +
+    </span>
+</div>

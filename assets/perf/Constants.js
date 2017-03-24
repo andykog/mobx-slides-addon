@@ -1,0 +1,3 @@
+export const COLORS_LIST_ITEMS_COUNT = 10000;
+export const TODOS_ITEMS_COUNT = 1000;
+
